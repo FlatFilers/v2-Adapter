@@ -63,22 +63,6 @@ export default class FlatfileImporter extends EventEmitter {
   }
 
   /**
-   * This allows you to opt into or out of specific versions of the Flatfile SDK
-   */
-  public static setVersion (version: 1 | 2): void {
-    switch (version) {
-      case 1:
-        this.MOUNT_URL = 'https://kiosk-lite.flatfile.io/?key=:key'
-        break
-      case 2:
-        this.MOUNT_URL = 'https://portal-2.flatfile.io/?key=:key'
-        break
-      default:
-        throw new Error(`${version} is not a valid version`)
-    }
-  }
-
-  /**
    * Call open() to activate the importer overlay dialog.
    */
   open (options = {}): void {
