@@ -1,4 +1,4 @@
-# Flatfile.io CSV Importer Adapter
+# Flatfile.com CSV Importer Adapter
 
 [![Build Status](https://travis-ci.org/FlatFilers/Adapter.svg?branch=master)](https://travis-ci.org/FlatFilers/Adapter)
 [![Codecov](https://img.shields.io/codecov/c/github/FlatFilers/Adapter.svg)](https://codecov.io/gh/FlatFilers/Adapter)
@@ -8,15 +8,15 @@
 [![devDependencies Status](https://david-dm.org/flatfilers/adapter/dev-status.svg)](https://david-dm.org/flatfilers/adapter?type=dev)
 
 
-A simple adapter for elegantly importing CSV files via [flatfile.io](https://www.flatfile.io) (Typescript, ES6, Browser)
+A simple adapter for elegantly importing CSV files via [flatfile.com](https://www.flatfile.com) (Typescript, ES6, Browser)
 
-Read the developer docs &rarr; https://developers.flatfile.io/docs/install
+Read the developer docs &rarr; https://flatfile.com/developers
 
-![Preview](https://flatfile.io/img/preview.png)
+![Preview](https://flatfile.com/img/preview.png)
 
 > **License Key**
 >
-> In order to setup, you need to [create or sign in to your flatfile.io account](https://flatfile.io) and obtain a license key.
+> In order to setup, you need to [create or sign in to your flatfile.com account](https://flatfile.com) and obtain a license key.
 
 ## Using NPM
 
@@ -104,7 +104,7 @@ import $ from 'jquery'
 // configure your flatfile options here
 const options = {}
 
-// Obtain your license key from https://flatfile.io
+// Obtain your license key from https://flatfile.com
 const LICENSE_KEY = 'PASTE YOUR KEY HERE'
 
 // initialize the importer
