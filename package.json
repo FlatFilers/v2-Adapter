@@ -60,7 +60,7 @@
   },
   "devDependencies": {
     "@types/node": "^9.5.0",
-    "ava": "^0.21.0",
+    "ava": "^5.1.0",
     "browserify": "^14.1.0",
     "codecov": "^2.2.0",
     "concurrently": "^3.5.1",
